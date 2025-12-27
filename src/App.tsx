@@ -21,7 +21,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/pixel-perfect-pages/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sinjeom" element={<Sinjeom />} />
